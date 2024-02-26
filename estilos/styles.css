@@ -65,14 +65,16 @@ header > img{
     font-size: 2.0em;
 }
 .sec-01{
+    background-image: url('file:///C:/Users/maykn/Documents/projetos/projectus-bancarius/imagens/background.jpg');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
     background-color: var(--color01);
-    height: 80vh;
-    background-image: url('imagens/background-sec-01.jpg');
-    background-position: 100% 100%;
+    height: 90vh;
+    width: 100%;
 }
 .card{
     background-color: #005C53;
     height: 60%;
     width: 30%;
-    background-image: url('/imagens/background-sec-01.jpg');
 }
