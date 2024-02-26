@@ -14,6 +14,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: var(--fonte-principal);
+}
 header{
     font-family: var(--fonte-principal);
     font-weight: 400;
@@ -22,20 +25,54 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 15vh;
+    height: 19vh;
+}
+header nav{
+    padding-left: 22px;
 }
 header nav > a{
     color: var(--color01);
     text-decoration: none;
     padding-left: 30px;
 }
+header nav > a:hover{
+    color: #9FC131;
+    transition: .5s;
+}
 header > img{
-    height: 30vh;
+    padding-right: 40px;
+    height: 32vh;
 }
 .icons{
-    padding-right: 30px;
+    padding-right: 40px;
+}
+
+.fa-facebook{
+    color: #126AFF;
+    cursor: pointer;
+}
+
+.fa-twitter{
+    cursor: pointer;
+}
+
+.fa-instagram{
+    color: #DF3158;
+    cursor: pointer;
 }
 .icons > i{
     padding-left: 30px;
     font-size: 2.0em;
+}
+.sec-01{
+    background-color: var(--color01);
+    height: 80vh;
+    background-image: url('imagens/background-sec-01.jpg');
+    background-position: 100% 100%;
+}
+.card{
+    background-color: #005C53;
+    height: 60%;
+    width: 30%;
+    background-image: url('/imagens/background-sec-01.jpg');
 }
