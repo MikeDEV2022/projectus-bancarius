@@ -65,7 +65,7 @@ header > img{
     font-size: 2.0em;
 }
 .sec-01{
-    background-image: url('file:///C:/Users/maykn/Documents/projetos/projectus-bancarius/imagens/background.jpg');
+    background-image: url('imagens/background.jpg');
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
