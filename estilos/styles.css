@@ -67,10 +67,11 @@ header > img{
     font-size: 2.0em;
 }
 .sec-01{
-    background-image: url('../imagens/background.jpg');
+    background-image: url('../imagens/background-new.jpg');
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: var(--color01);
     height: 90vh;
     width: 100%;
@@ -78,18 +79,67 @@ header > img{
     align-items: center;
 }
 .card{
-    background-color: #f2f2f2c9;
+    background-color: #f2f2f29d;
     margin-left: 15vh;
-    padding: 30px;
-    height: 60%;
+    padding: 40px;
     width: 38%;
-    border-radius: 30px;
+    border-radius: 25px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.582);
 }
 .card h1{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2vw;
+    text-align: left;
 }
-.card p{
+.letter{
     padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+    font-size: 1.5vw;
+    text-align: left;
+}
+.card span{
+    color: var(--color02);
+}
+.container-buttons{
+    justify-content: space-between;
+}
+.container-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 12vw;
+}
+.now{
+    background-color: var(--color01);
+    cursor: pointer;
+    margin-right: 40px;
+    width: 10vw;
+    text-align: center;
+    padding: 1vw;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: var(--color04);
+}
+.now:hover{
+    background-color: var(--color02);
+    color: var(--color04);
+    transition: .5s;
+}
+.servi{
+    background-color: var(--color01);
+    cursor: pointer;
+    width: 10vw;
+    text-align: center;
+    padding: 1vw;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: var(--color04);
+}
+
+.servi:hover{
+    background-color: var(--color02);
+    transition: .5s;
 }
