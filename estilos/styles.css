@@ -106,9 +106,10 @@ header > img{
 }
 .container-buttons{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding-top: 30px;
-    padding-right: 12vw;
+    padding-right: 29%;
 }
 .now{
     background-color: var(--color01);
@@ -142,4 +143,155 @@ header > img{
 .servi:hover{
     background-color: var(--color02);
     transition: .5s;
+}
+.sec-02{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80vh;
+    padding: 50px;
+}
+.card-sec-02{
+    width: 80%;
+}
+.card-sec-02 img{
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+#back-image{
+    background-color: var(--color01);
+    height: 86vh;
+}
+#with-us{
+    padding-left: 20px;
+}
+#with-us i{
+    font-size: 4.4em;
+    margin-left: 40%;
+    padding-bottom: 30px;
+    color: var(--color01);
+}
+.text{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.button{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.0em;
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+    background-color: var(--color02);
+    color: var(--color04);
+    border-radius: 3px;
+}
+.button:hover{
+    transition: .5s;
+    background-color: var(--color03);
+}
+.sec-03{
+    padding: 50px;
+    height: 80vh;
+}
+.sec-03-tex{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.sec-03-tex h2{
+    font-size: 2.0em;
+}
+.sec-03-tex p{
+    padding-top: 30px;
+}
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+}
+.container-cards i{
+    padding-left: 70%;
+    padding-bottom: 30px;
+    font-size: 3.2em;
+}
+.card-01, .card-02, .card-03{
+    width: 50%;
+    padding: 20px;
+}
+.card-01 h2{
+    padding-bottom: 40px;
+}
+.card-02 h2{
+    padding-bottom: 40px;
+}
+.card-03 h2{
+    padding-bottom: 40px;
+}
+.read-me{
+    padding-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.read-me:hover{
+    color: var(--color01);
+}
+.read-me i{
+    padding-left: 5px;
+    font-size: 18px;
+    color: var(--color02);
+}
+.sec-04{
+    height: 80vh;
+    padding: 50px;
+}
+.container-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.image{
+    width: 50%;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    background-color: var(--color03);
+}
+.image img{
+    width: 50%;
+    display: block;
+    margin: 50px auto 15px auto; 
+    position: relative;
+    top: 50px;
+}
+.contac-inform img{
+    width: 50%;
+}
+.contac-inform{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.contac-inform-text{
+    padding-bottom: 60px;
+}
+.contac-inform-text i{
+    font-size: 3.0em;
+    padding-top: 20px;
+    color: #00BD07;
+    cursor: pointer;
+}
+.contac-inform-text i:hover{
+    transition: .5s;
+    color: #005C53;
+}
+footer{
+    background-color: var(--color01);
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    color: var(--color04);
 }
